@@ -1,0 +1,77 @@
+
+
+#home {
+    background-color: #eaeaea;
+}
+
+.title-home {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.btn-2player {
+    background-color: grey;
+    width: 10%;
+    height: 7vh;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-com {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-playerVsCom {
+    background-color: grey;
+    width: 20%;
+    height: 7vh;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* style css player vs com */
+.boardBackground {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 550px;
+    width: 550px;
+}
+
+.statistic {
+    position: absolute;
+    left: 700px;
+}
+#score {
+    position: absolute;
+    left: 525px;
+    top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 550px;
+    height: 50px;
+    text-align: center;
+}
